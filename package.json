@@ -1,0 +1,24 @@
+{
+  "name": "MonadCredits",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./outdir/index.js",
+  "scripts": {
+    "test": "node ./outdir/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "latest": "^0.2.0",
+    "nodejs": "0.0.0",
+    "ring-crypto": "^1.0.8"
+  }
+}
